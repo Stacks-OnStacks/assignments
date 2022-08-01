@@ -86,7 +86,7 @@ Regardless of the project concept you choose, you will be required to adhere to 
 
 -   [ ] Java 8
 -   [ ] Apache Maven
--   [ ] PostgreSQL (hosted on Azure PostgreSQL Server)
+-   [ ] PostgreSQL (hosted on AWS PostgreSQL Server)
 -   [ ] Git SCM (hosted on GitHub)
 
 ## Repo Instructions
