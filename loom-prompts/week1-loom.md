@@ -1,4 +1,4 @@
-# Java, JDBC & Maven
+# Java
 
 # REMINDER: Each prompt is answerable in 5min. You must record your screen as well with this prompt on the foreground.
 
