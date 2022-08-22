@@ -44,11 +44,15 @@ In this project, you're presented with the challenge to learn and implement the 
 
 -   [Hibernate Session Factory](https://www.java2novice.com/hibernate/session-factory/)
 
+-   Many-to-Many: 
+    -  [Example 1](https://www.codejava.net/frameworks/hibernate/hibernate-many-to-many-association-with-extra-columns-in-join-table-example)
+    -  [Example 2](https://mkyong.com/hibernate/hibernate-many-to-many-example-join-table-extra-column-annotation/)
+    -  [Example 3](https://stackoverflow.com/questions/5127129/mapping-many-to-many-association-table-with-extra-columns)
+
 ## Optional Challenges:
 
 -   [ ] Utilization of JWT for user authentication
 -   [ ] Session-based caching to minimize calls to the database for already retrieved data
--   [ ] Implementation of Redux Toolkit on the frontend
 
 ## Tech Stack
 
