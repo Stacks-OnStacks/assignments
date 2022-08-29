@@ -17,6 +17,7 @@ Application must leverage the full stack:
 -   Java API will be RESTful (though HttpSession will be permitted)
 -   Java API will be unit tested using JUnit and Mockito, with coverage reports generated using Jacoco
 -   Complete CI/CD pipelines will use AWS CodePipeline
+-   [This will leverage a Trello Board shared with your Trainer!](https://trello.com/home)
 
 ### Other requirements:
 
@@ -24,24 +25,37 @@ Application must leverage the full stack:
 -   Application's own data model must be sufficiently complex (i.e. minimum 3 tables)
 -   SQL DB will be deployed to the cloud
 -   Java API will be deployed to the cloud (AWS CodePipeline)
--   UI application will be deployed to the cloud (Azure Static Website on S3 Storage)
+-   UI application will be deployed to the cloud (Static Website on S3 Storage)
 -   Java API will have >=70% test (line) coverage for service layer with validations (Used EclEmma or JaCoCo plugin to generate these reports)
 -   Java API will leverage Spring's MockMvc for integration/e2e tests of controller endpoints
 -   At least one external API must be leveraged
+-   **DAILY GITHUB COMMITS ARE REQUIRED**
 
 # Required Challenge Goals (Select 1):
 
--   Learn & Implement ReactJS
--   Learn & Implement Spring Security
+-   Research, Learn & Implement ReactJS (Content in Week 7)
+-   Reserach, Learn & Implement Spring Security
 
 ## Other Thoughts
 
-The project concepts must be approved by the trainer. Remember to keep user stories clear and unambiguous. Keep in mind that you only have 2 weeks to work on this project so make your MVP something attainable. In addition to your project proposal, your teams should be structured with one team leader and a person or persons who fulfill the role of Gitflow manager and DevOps engineer. AVOID dividing the work into API and UI for the team members, everyone should have a hand in ALL aspects of this application.
+**The project concepts must be approved by the trainer.** Remember to keep user stories clear and unambiguous. Keep in mind that you only have 2 weeks to work on this project so make your MVP something attainable.
+
+-   In addition to your project proposal:
+    -   Your teams will have a Team Leader.
+    -   A person or persons who fulfill the role of Gitflow manager and DevOps engineer.
+    -   **AVOID** dividing the work into API and UI for the team members, **_everyone should have a hand in ALL aspects of this application_**.
 
 ## Repositories
 
-In order to make your repositories accessible to your AWS Accounts via CodePipeline, it is recommended that you create two repositories under your own personal account. One team member can host the repo for the API and another member can host the repo for the UI. Both must leverage the AWS CI/CD pipeline
+In order to make your repositories accessible to your AWS Accounts via CodePipeline, it is recommended that you create two repositories under your own personal account.
+
+-   One team member can host the repo for the API (**_AWS CodePipeline_**)
+-   Another member can host the repo for the UI (**_S3 or AWS CodePipeline_**).
 
 ## Presentations
 
-Presentations will occur on the afternoon of Friday, September 9th, 2022. All team members must have a speaking role in the presentation of the application, and a **Slide Deck** must accompany your presentation. Aim for 20-25min.
+Presentations will occur on the afternoon of Friday, September 9th, 2022.
+
+-   All team members must have a speaking role in the presentation of the application.
+-   **A slide deck** must accompany your presentation.
+-   Aim for 20-25min.
